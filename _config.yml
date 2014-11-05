@@ -1,0 +1,6 @@
+# revproxy config file
+---
+proxies:
+    "localhost:8000": "10.0.0.1:4000"
+    "localhost:9000": "10.0.0.1:4000"
+    # other proxies
